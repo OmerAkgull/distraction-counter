@@ -62,3 +62,27 @@ h1 {
     text-align: center;
     font-size: 2rem;
 }
+
+.align-center {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn-counter {
+    padding: 15px 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 8px #999;
+}
+
+.btn-counter:hover {
+    background-color: rgb(192, 197, 192);
+}
+
+.btn-counter:active {
+    background-color: rgb(192, 197, 192);
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+}
