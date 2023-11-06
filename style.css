@@ -46,60 +46,95 @@ body {
 }
 
 h1 {
-    color: white;
-    text-align: center;
-    font-weight: 700;
-    margin-top: 4rem;
-    font-size: 3rem;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 4rem;
+  font-size: 3rem;
 }
 
 #counter {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .instructor {
-    color: #e5e7eb;
-    text-align: center;
-    font-size: 2rem;
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .align-center {
-    margin-top: 1rem;
-    text-align: center;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .btn-counter {
-    padding: 15px 25px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    border-radius: 15px;
-    border: none;
-    box-shadow: 0px 8px #999;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 8px #999;
 }
 
 .btn-counter:hover {
-    background-color: rgb(192, 197, 192);
+  background-color: rgb(192, 197, 192);
 }
 
 .btn-counter:active {
-    background-color: rgb(192, 197, 192);
-    box-shadow: 0 5px #666;
-    transform: translateY(3px);
+  background-color: rgb(192, 197, 192);
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
 }
 
-h2 {
-    color: white;
-    text-align: center;
-    font-weight: 700;
-    font-size: 2.2rem;
-    margin-top: 3rem;
+h2,
+h3 {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-top: 3rem;
 }
 
 .playlist-container {
-    display: flex;
-    flex-direction: row;
-    height: 500px;
-    justify-content: center;
-    gap: 7rem;
-    margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  justify-content: center;
+  gap: 7rem;
+  margin-top: 3rem;
+}
+
+.additional-sources {
+  margin-top: .5rem;
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+a {
+  color: white;
+  font-size: 2rem;
+}
+
+li:not(:first-child) {
+  margin-top: 1rem;
+}
+
+li::marker {
+  content: "📚";
+  font-size: 2rem;
+}
+
+.footer {
+  margin-top: 5rem;
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 1rem;
 }
